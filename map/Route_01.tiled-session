@@ -1,0 +1,48 @@
+{
+    "activeFile": "Route_01.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "tilesets"
+    ],
+    "fileStates": {
+        "Outside.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Route_01.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 864.5,
+                "y": 303
+            }
+        },
+        "tilesets/Outside tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tilesets/Outside.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "tilesets/Outside_tiles.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.externalTilesetPath": "D:/coding/python/Pokemon/map/tilesets",
+    "last.imagePath": "D:/coding/python/Pokemon/assets/map_tiles/Outside tiles",
+    "openFiles": [
+        "Route_01.tmx"
+    ],
+    "project": "Route_01.tiled-project",
+    "recentFiles": [
+        "Route_01.tmx",
+        "tilesets/Outside tiles.tsx",
+        "tilesets/Outside.tsx",
+        "Outside.tsx"
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx"
+}
