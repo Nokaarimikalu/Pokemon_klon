@@ -1,0 +1,65 @@
+========================================================================================================================
+TYPE DATABASE
+========================================================================================================================
+
+types (id, name vom type)  
+
+type_efficacy (damaga_type_id, target_type_id, damage_factor(float))
+
+pokemon_type(pokemon_id, type_id, slot(integer))
+
+
+========================================================================================================================
+Logik-Check: Der doppelte Typ im Kampf
+Wenn dein Glurak (Feuer/Flug) von einer Elektro-Attacke getroffen wird:
+========================================================================================================================
+Das Spiel prüft: Elektro gegen Feuer → Faktor 1.0.
+
+Das Spiel prüft: Elektro gegen Flug → Faktor 2.0.
+
+Die Rechnung: 1.0 * 2.0 = 2.0 (Sehr effektiv).
+
+Wenn es von einer Boden-Attacke getroffen wird:
+
+Boden gegen Feuer → Faktor 2.0.
+
+Boden gegen Flug → Faktor 0.0.
+
+Die Rechnung: 2.0 * 0.0 = 0.0 (Keine Wirkung).
+
+
+
+
+
+
+
+
+========================================================================================================================
+ITEM DATABASE
+========================================================================================================================
+
+item(id , name, description, category, price, fling_power, effect_value, move_id)
+
+
+
+
+========================================================================================================================
+POKEMON DATABASE
+========================================================================================================================
+
+pokemon(id, name, hp, atk, def, sp_atk, sp_def, speed, height, weight, base_experience, capture_rate, gender_rate, hatch_counter, growth_rate, flavor_text)
+
+pokemon_abilities(pokemon_id, ability_name, is_hidden)
+
+pokemon_egg_groups(pokemon_id, group_name)
+
+pokemon_evolutions(from_id, to_id, level, item_id)
+
+
+
+
+========================================================================================================================
+MOVES TABELLE
+========================================================================================================================
+
+moves(id, name, power, accuracy, pp, priority, type_id, damage_class)

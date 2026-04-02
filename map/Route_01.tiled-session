@@ -10,11 +10,11 @@
             "scaleInEditor": 1
         },
         "Route_01.tmx": {
-            "scale": 2,
+            "scale": 1,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 791.75,
-                "y": 413.5
+                "x": 791.5,
+                "y": 611
             }
         },
         "tilesets/Outside tiles.tsx": {
