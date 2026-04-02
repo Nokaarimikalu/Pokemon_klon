@@ -1,8 +1,8 @@
 {
     "activeFile": "Route_01.tmx",
     "expandedProjectPaths": [
-        ".",
-        "tilesets"
+        "tilesets",
+        "."
     ],
     "fileStates": {
         "Outside.tsx": {
@@ -10,11 +10,11 @@
             "scaleInEditor": 1
         },
         "Route_01.tmx": {
-            "scale": 1,
-            "selectedLayer": 2,
+            "scale": 2,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 864.5,
-                "y": 303
+                "x": 791.75,
+                "y": 413.5
             }
         },
         "tilesets/Outside tiles.tsx": {

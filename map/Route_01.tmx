@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="65">
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="69">
  <tileset firstgid="1" source="tilesets/Outside_tiles.tsx"/>
  <objectgroup id="9" name="collision">
   <object id="52" x="864" y="224" width="96" height="128"/>
@@ -262,7 +262,7 @@
 433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434,433,434
 </data>
  </layer>
- <layer id="8" name="forground" width="50" height="50">
+ <layer id="8" name="foreground" width="50" height="50">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

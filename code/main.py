@@ -1,5 +1,6 @@
 import pygame, sys
 from level import Level
+from player import Player
 
 class Game:
     def __init__(self):
@@ -9,7 +10,7 @@ class Game:
         self.clock = pygame.time.Clock()
         
         # Das Level-Objekt erstellen
-        self.level = Level()
+        self.level = Level("Route_01")
 
     def run(self):
         while True:
@@ -23,6 +24,7 @@ class Game:
             
             # Das Level updaten und zeichnen
             self.level.run(dt)
+
             
             pygame.display.update()
 
