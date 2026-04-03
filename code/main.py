@@ -23,7 +23,7 @@ class Game:
             self.screen.fill('black')
             
             # Das Level updaten und zeichnen
-            self.level.run(dt)
+            self.level.update(dt)
 
             
             pygame.display.update()

@@ -1,8 +1,8 @@
 {
     "activeFile": "Route_01.tmx",
     "expandedProjectPaths": [
-        "tilesets",
-        "."
+        ".",
+        "tilesets"
     ],
     "fileStates": {
         "Outside.tsx": {
@@ -11,10 +11,10 @@
         },
         "Route_01.tmx": {
             "scale": 1,
-            "selectedLayer": 3,
+            "selectedLayer": 7,
             "viewCenter": {
-                "x": 791.5,
-                "y": 611
+                "x": 518.5,
+                "y": 634
             }
         },
         "tilesets/Outside tiles.tsx": {
@@ -28,7 +28,7 @@
             "scaleInEditor": 1
         },
         "tilesets/Outside_tiles.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 2
         }
     },
     "last.externalTilesetPath": "D:/coding/python/Pokemon/map/tilesets",
